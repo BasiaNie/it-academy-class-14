@@ -1,8 +1,13 @@
-var name = 'Mike';
+var first = 10;
+var second = 15;
 
-function displayMessage(username) {
-    var name = 'Tom';
-    alert('button was clicked');
+function add(param1, param2) {
+    return param1 + param2;
 }
 
-console.log(name);
+function showResult() {
+    var result = add(6, 7);
+
+    console.log(result);
+}
+
