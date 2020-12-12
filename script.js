@@ -1,5 +1,8 @@
+var name = 'Mike';
+
 function displayMessage(username) {
-    console.log('Hello, ' + username)
+    var name = 'Tom';
+    alert('button was clicked');
 }
 
-displayMessage('Mike');
+console.log(name);
